@@ -30,7 +30,7 @@ public class Ejecutor {
         
         persona1.establecerBarrio(barrio2);
         
-        System.out.printf("El barrio de la persona es: %s\n Y pertenece a la "
+        System.out.printf("El barrio de la persona es(%s): %s\n Y pertenece a la "
                 + "ciudad: %s\n",
                 persona1.obtenerBarrio().obtenerNombre(),
                 persona1.obtenerBarrio().obtenerCiudad().obtenerNombre());
@@ -45,3 +45,4 @@ public class Ejecutor {
         
     }
 }
+

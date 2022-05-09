@@ -24,6 +24,7 @@ public class Ejecutor {
                 + "Unidad de DVD: %s\n",
                 computadora.obtenerTipoProcesador(),
                 computadora.obtenerUnidadDvd().obtenerMarca());
+                computadora.obtenerUnidadDvd().obtenerCosto();
     }
 
 }

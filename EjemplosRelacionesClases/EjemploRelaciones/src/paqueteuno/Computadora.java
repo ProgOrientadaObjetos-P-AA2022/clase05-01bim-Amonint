@@ -26,6 +26,7 @@ public class Computadora {
     public void establecerUnidadDvd(UnidadDVD u) {
         unidadDvd = u;
     }
+    
 
     public String obtenerTipoProcesador() {
         return tipoProcesador;
@@ -34,5 +35,6 @@ public class Computadora {
     public UnidadDVD obtenerUnidadDvd() {
         return unidadDvd;
     }
+    
 
 }
